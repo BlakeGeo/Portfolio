@@ -262,6 +262,10 @@ header a:hover, .icons:hover {
 	.social ul li {
 		flex-direction: row;
 	}
+
+	header h1 {
+		font-size: 3rem;
+	}
 }
 
 @media  screen and (max-width: 900px) {
