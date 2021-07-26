@@ -5,26 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blake Georgeff Portfolio</title>
-  <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="assets/style.css">
   </head>
 
 <body>
 <!--HEADER-->
 	<header>
 		<h1 id="Blake-Georgeff">Blake Georgeff</h1>
-		<nav>
-			<ul>
+		<nav class="navbar">
+			<ul class="nav-menu">
 				<li>
-					<a href="#about">about</a>
+					<a href="#about" class="nav-link">about.</a>
 				</li>
 				<li>
-					<a href="#work">work</a>
+					<a href="#work" class="nav-link">work.</a>
 				</li>
 				<li>
-					<a href="#contact">contact</a>
+					<a href="#contact" class="nav-link">contact.</a>
+				</li>
+				<li>
+					<a href="assets/0. CV.pdf" class="nav-link">resume.</a>
 				</li>
 			</ul>
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
 		</nav>
 	</header>
 
@@ -33,7 +41,7 @@
 		<section id="about" class="about">
 			<div class="about-txt">
 				<h1>about.</h1>
-				<p class="intro">I'm an aspring web developer based in Perth, Australia. Currently undergoing a Coding Bootcamp to add full-stack development to my repertoire.</p>
+				<p class="intro">I'm an aspiring web developer based in Perth, Australia. Currently undergoing a Coding Bootcamp to add full-stack development to my repertoire.</p>
 				<p class="description">I hold a chemical engineering degree from Curtin University but have sinced opted for a different career path more suited to my interests. I have a keen interest in blockchain development and am excited to be learning all things coding and full-stack.</p>
 				<br>
 				<p class="description">Other than creating projects for my portfolio you'll find me playing ice hockey, wakeboarding or lifting weights.</p>
@@ -49,11 +57,13 @@
 				<p class="description">Check out some of my latest projects.</p>
 			</div>
 			<div class="main-project">
-				<a href="https://github.com/BlakeGeo">
-					<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/css-mongodb.jpg" alt="main full stack project" class="card-image">
+				<a href="https://bt134.github.io/novice-chef/">
+					<img src="./Images/noviceChef.png" alt="Novice Chef Project image" class="card-image">
 					<div class="card-info">
-						<h2>Surf Report</h2>
-						<p>MERN Stack</p>
+						<h2>Novice Chef</h2>
+						<a href="https://github.com/BT134/novice-chef">
+							<p>Javascript (repo link here)</p>
+						</a>
 					</div>
 				</a>
 			</div>
@@ -62,11 +72,13 @@
 		<section class="project">
 			<div class="cards">
 				<div class="card">
-					<a href="https://github.com/BlakeGeo">
-						<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/responsibilities-full-stack.jpg" alt="project 2" class="card-image">
+					<a href="https://blakegeo.github.io/Weather-Dashboard/">
+						<img src="./Images/weatherDashboard.png" alt="Weather-Dashboard" class="card-image">
 						<div class="card-info">
-							<h2>LED Wall</h2>
-							<p>Node</p>
+							<h2>Weather Dashboard</h2>
+							<a href="https://github.com/BlakeGeo/Weather-Dashboard">
+								<p>Javascript (repo link here)</p>
+							</a>
 						</div>
 					</a>
 				</div>	
@@ -176,6 +188,8 @@
 	<footer>
 		<h3><a href="#Blake-Georgeff">&copy; 2021 Blake Georgeff</h3></a>
 	</footer>
+
+	<script src="assets/index.js"></script>
 
 </body>
 
