@@ -250,8 +250,12 @@ header a:hover, .icons:hover {
 	color: var(--lightgrey);
 }
 
-.main-project:hover, .card:hover {
+.card-image:hover {
 	opacity: 0.7;
+}
+
+.card-info > a:hover {
+	text-decoration: underline;
 }
 
 /* SCREEN SIZE RESPONSIVENESS */

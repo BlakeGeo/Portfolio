@@ -1,16 +1,16 @@
-# Personal Portfolio
+<h1 align="center">Personal Portfolio</h1>
 
 ## Desciption
 
-> A personalised professional portfolio page showcasing a bit about myself and my coding skills through projects that I have completed.
+> 🔍 A personalised professional portfolio page showcasing a bit about myself and my coding skills through projects that I have completed.
 
 ## Screenshot of Webpage
 
-![Screenshot of portfolio page](Images/Screenshot.png?raw=true "Portfolio")
+![Screenshot of portfolio page](images/Screenshot.png?raw=true "Portfolio")
 
 ## Installation
 
-> This website doesnt require installation of any programs or software. It can be viewed on any web browser. It is now live at the following URL https://blakegeo.github.io/Portfolio/
+> 💾 This website doesnt require installation of any programs or software. It can be viewed on any web browser. It is now live at the following URL [here](https://blakegeo.github.io/Portfolio/).
 
 ## Built With
 
@@ -24,7 +24,7 @@
 
 ## Authors
 
-> * Blake Georgeff - [https://github.com/BlakeGeo](https://github.com/BlakeGeo)
+[Blake Georgeff](https://github.com/BlakeGeo)
 
 ## Project Status
 
@@ -34,6 +34,5 @@
 
 > I will be updating my portfolio as I complete more projects and learn more coding techniques. 
 
-## Contact 
-
-> Project Link: [https://github.com/BlakeGeo/Portfolio](https://github.com/BlakeGeo/Portfolio)
+## Contact
+> ✉️ Contact me with any questions: [email](mailto:georgeffb@hotmail.com) , [GitHub](https://github.com/BlakeGeo)<br />
