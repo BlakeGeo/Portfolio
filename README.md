@@ -6,7 +6,7 @@
 
 ## Screenshot of Webpage
 
-![Screenshot of portfolio page](images/Screenshot.png?raw=true "Portfolio")
+![Screenshot of portfolio page](Images/Screenshot.png)
 
 ## Installation
 
